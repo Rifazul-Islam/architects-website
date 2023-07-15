@@ -27,7 +27,7 @@ nav {
     align-items: center;
 }
 
-.nav-title {
+.section-title {
     font-size: 2.5rem;
     color: #131313;
     font-weight: 700;
@@ -73,45 +73,77 @@ li a {
     width: 100%;
 }
 
-.primary{
-    color:#727272;
+.primary {
+    color: #727272;
 }
-.text-primary{
-    color:#ff900E;
+
+.text-primary {
+    color: #ff900E;
 }
 
 /* main style */
 
-main{
-    max-width:1440px;
+main {
+    max-width: 1440px;
     margin: 30px 100px 30px 210px;
-   
-    
- }
 
- .teams-container{
+
+}
+
+.teams-container {
     display: flex;
     align-items: center;
- }
+}
 
- .teams-img-container{
+.teams-img-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
- }
+}
 
- .teams-content{
+.teams-content {
     padding-left: 70px;
     padding-right: 70px;
- }
- .teams-title{
+}
+
+.teams-title {
     font-size: 2.8rem;
- }
+}
+
+
+/* facts section Style */
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 30px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.card-stats {
+    font-size: 2.5rem;
+    color: #474747;
+    margin: 10px 0px;
+}
+
+.card-title {
+    padding-top: 0px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
 
 
 
 
- /* Media query style related */
+
+
+/* Media query style related */
 
 /* mobile Device for responsive */
 @media screen and (max-width:576px) {
@@ -121,44 +153,47 @@ main{
     }
 
     nav,
-    .teams-container
-     {
+    .teams-container {
         flex-direction: column;
     }
 
-    .teams-img-container{
+    .teams-img-container {
 
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    img{
+
+    img {
         width: 100%;
     }
-    main{
+
+    main {
         margin: 0px;
     }
 
-    .teams-content{
+    .teams-content {
         padding: 20px;
     }
-   
+
 }
 
 /* Medium devise for responsive */
 
 @media screen and (min-width:578px) and (max-width:980px) {
-    
+
     nav,
-    .teams-container{
+    .teams-container {
         flex-direction: column;
     }
-    header{
+
+    header {
         padding: 50px;
     }
 
-    .teams-content{
+    .teams-content {
         padding: 0px;
     }
-    main{
-            padding-right: 150px;
+
+    main {
+        padding-right: 150px;
     }
 }
