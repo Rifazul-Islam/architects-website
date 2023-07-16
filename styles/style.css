@@ -124,7 +124,9 @@ main {
     gap: 100px;
 }
 
-
+.feature-img{
+    width:100%;
+} 
 
 
 .feature-title {
@@ -141,7 +143,10 @@ main {
 .feature-content .cards {
     border-radius: 8px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-    padding: 10px 40px;
+    padding-top: 20px;
+    margin-top: 50px;
+    width:100%;
+    
 }
 
 .card-title {
@@ -302,6 +307,9 @@ main {
     .facts-card-container {
         gap: 20px;
     }
+    .feature-content .cards {
+        width: 100%;
+    }
 }
 
 
@@ -316,8 +324,7 @@ main {
     }
 
     .feature-content .cards {
-        padding: 20px;
-        width: 100%;
+        width: 400px;
     }
     .feature .feature-title{
         width: 100%;
